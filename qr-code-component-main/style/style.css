@@ -1,0 +1,46 @@
+body {
+  max-width: 1440px;
+  background: #d6e2f0;
+}
+
+.component {
+  background: white;
+  padding: 15px;
+  margin: auto;
+  width: 375px;
+  border-radius: 15px;
+}
+
+.component .qr_image img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.component .qr_title {
+  margin-top: 20px;
+}
+
+.component .qr_title p {
+  color: #1f3251;
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  font-size: 20px;
+}
+
+.component .qr_descr {
+  margin: 15px 0 20px;
+}
+
+.component .qr_descr p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #7b879d;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

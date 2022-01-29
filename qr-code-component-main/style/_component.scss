@@ -1,0 +1,37 @@
+.component {
+    background: $white;
+    padding: 15px;
+    margin: auto;
+    width: 375px;
+    border-radius: 15px;
+    .qr_image {
+        img {
+                border-radius: 10px; 
+                width: 100%;
+        }
+    }
+    .qr_title {
+        margin-top: 20px;
+        p {
+            color: $dark_blue;
+            font-family: $outfit;
+            font-weight: 700;
+            width: 80%;
+            text-align: center;
+            margin: auto;
+            font-size: 20px;
+        }
+    }
+    .qr_descr {
+        margin: 15px 0 20px;
+        p {
+            font-family: $outfit;
+            font-weight: 400;
+            font-size: 15px;
+            color: $grayish_blue;
+            width: 80%;
+            margin: auto;
+            text-align: center;
+        }
+    }
+}
